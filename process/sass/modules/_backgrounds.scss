@@ -25,10 +25,9 @@
 	}
 }
 
+/*Url is based on style.css in builds folder*/
 .jumbotron {
-	@include backImage(
-		'../images/water.jpg',
-		600px);
+	@include backImage('../images/water.jpg',600px);	
 	margin-top: 0;
 }
 
